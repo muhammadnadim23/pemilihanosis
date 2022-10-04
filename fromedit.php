@@ -26,6 +26,7 @@ if(mysqli_num_rows($query) < 1){
         <p><label>nama siswa : <input value="<?php echo $pel['nisn_siswa']?>" required="required" type="text" name="nama_siswa"></label></p>
         <p><label>ttl siswa: <input value="<?php echo $pel['nisn_siswa']?>" required="required" type="text" name="ttl_siswa"></label></p>
         <p><label>alamat : <textarea  required="required" name="alamat" cols="30" rows="5"><?php echo $pel['nisn_siswa']?></textarea></label></p>
+        <p><label>no_pemilihan : <input value="<?php echo $pel['nisn_siswa']?>" required="required" type="hidden" name="nisn_siswa"></label></p>
         <input type="submit" name="simpan" value="simpan">
     </form>
 </body>
